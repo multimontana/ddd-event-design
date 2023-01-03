@@ -1,0 +1,29 @@
+{
+    "name": "multimontana/domain-event",
+    "description": "Library to manage domain and event",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"PhpDDD\\Domain\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpDDD\\Domain\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artyom Harutyunyan",
+            "email": "artyom@lifebeget.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.8.1",
+        "phpmd/phpmd": "^2.2.3",
+        "phpunit/phpunit": "^4.7.0",
+        "phploc/phploc": "^2.1.3"
+    }
+}
